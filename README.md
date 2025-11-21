@@ -1,0 +1,1 @@
+# Primes-of-bad-reduction-for-systems-of-polynomial-equations
