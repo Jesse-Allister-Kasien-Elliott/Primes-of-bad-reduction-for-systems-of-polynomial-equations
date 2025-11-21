@@ -299,7 +299,7 @@ s := 5: d := 2: h := 10:
 printf("=== Sweep in n (s=%d, d=%d, h=%d) ===\n", s, d, h);
 printf("n\tA\t\tB\t\tB/A\n");
 for n in n_vals do
-    U, Delta, ratio := bounds(n, s, d, h);
+    A, B, ratio := bounds(n, s, d, h);
     printf("%d\t%.4e\t%.4e\t%.4e\n", n, A, B, ratio);
 end do:
 
